@@ -37,9 +37,7 @@ Here's a few brief examples of how to use the package:
 
 
 
-Implementation of the full API is in progress. The documentation will update on an as-needed basis to reflect this.
 
-The National Weather Service API can be found here: https://www.weather.gov/documentation/services-web-api#/
 
 Table of Contents
 =================
@@ -57,7 +55,7 @@ Advantages of using CS2D
 Dependencies
 ============
 
-NWSAPy has minimal dependencies, with core functionality being pure python:
+CS2D has minimal dependencies, with core functionality being pure python:
 
 - shapely
 - pandas

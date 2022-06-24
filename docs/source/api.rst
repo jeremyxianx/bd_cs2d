@@ -2,7 +2,7 @@ APIs
 --------------------------
 
 .. class:: cs2d
-   :members: model, data, backdoor_target, backdoor_size, lam, tau
+   :members: model, data
 
    .. method:: fit(data,lam,tau)
 

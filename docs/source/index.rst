@@ -17,16 +17,23 @@ how to :ref:`installation` the project.
 Contents
 --------
 
-Here's a few brief examples of how easy it is to use the package:
+Here's a few brief examples of how to use the package:
 
 
 .. code-block:: python
 
-   from cs2d import fit,
 
-   nwsapy.set_user_agent("Application Name", "youremail@domain.com or website")
-   active_tor_warnings = nwsapy.get_active_alerts(event = "Tornado Warning")
-   df = active_tor_warnings.to_dataframe()
+   from dataset import fmnist
+   from pretrained import fmn_classifier
+   from model import CNN
+   import torch
+   
+   
+   cs2d_classifier = CNN()
+   cs2d_classifier = torch.load(fmn_classifier)
+   
+
+   
 
 
 
@@ -39,9 +46,7 @@ Table of Contents
 .. toctree::
    :maxdepth: 2
    
-   Getting Started <gettingstarted>
-   Using NWSAPy <using_nwsapy/intro>
-   Data Validation Tables <dvt>
+   api
 
 
 Advantages of using CS2D

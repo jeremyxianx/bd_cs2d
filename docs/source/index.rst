@@ -37,19 +37,17 @@ The National Weather Service API can be found here: https://www.weather.gov/docu
 Table of Contents
 =================
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    
    Getting Started <gettingstarted>
    Using NWSAPy <using_nwsapy/intro>
    Data Validation Tables <dvt>
 
-Advantages of using NWSAPy
+
+Advantages of using CS2D
 ==========================
-- **Clean and Simplistic Code** - The syntax is very english-like.
-- **No worries about JSON**. NWSAPy takes care of anything JSON-related, including formats (GeoJSON, JSON-LD, etc).
-- **No worries about URLs**. Similar to the Django ORM, you're able to make a request without ever writing code to make a request.
-- **404 Error Minimization.** This is handled through data validation checks, as well as handling URL construction.
-- **Response errors are handled.** Response errors are handled appropriately.
+- **End-to-end learning** - The CS2D provides end-to-end learning.
+
 
 Dependencies
 ============
@@ -70,9 +68,7 @@ Important Links
 ===============
 
 - `GitHub <https://github.com/WxBDM/nwsapy>`_
-- `National Weather Service API Documentation <https://www.weather.gov/documentation/services-web-api>`_
-- `National Weather Service API <https://api.weather.gov/>`_
-- `National Weather Service API Discussion <https://github.com/weather-gov/api/discussions>`_
+
 
 Indices and tables
 ==================

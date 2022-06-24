@@ -1,7 +1,7 @@
 APIs
 --------------------------
 
-.. class:: Noodle
+.. autoclass:: Noodle
    :members: eat, slurp
 
    .. method:: boil(time=10)

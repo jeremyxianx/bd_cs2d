@@ -1,9 +1,14 @@
 APIs
 --------------------------
 
-.. class:: cs2d
+.. class:: CS2D
    :members: model, data
 
-   .. method:: fit(data,lam,tau)
+   .. method:: fit(data, lam, tau)
 
-      Boil the noodle *time* minutes.
+      Fit the model
+      
+   .. method:: predict(data)
+   
+   
+   .. method:: sample_selection(data, cut_off)

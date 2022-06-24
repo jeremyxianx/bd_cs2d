@@ -1,6 +1,6 @@
 APIs
 --------------------------
 
-.. class:: Noodle
+.. class:: fit
 
    Noodle's docstring.

@@ -2,6 +2,7 @@ APIs
 --------------------------
 
 .. class:: Noodle
+
    :members: eat, slurp
 
    .. method:: boil(time=10)

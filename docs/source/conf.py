@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
+project = 'CS2D'
 copyright = '2021, Graziella'
-author = 'Graziella'
+author = 'Xun'
 
 release = '0.1'
 version = '0.1.0'

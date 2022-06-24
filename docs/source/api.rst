@@ -1,5 +1,5 @@
 APIs
 --------------------------
 
-.. autoclass:: nwsapy.NWSAPy
+.. autoclass:: train.NWSAPy
     :members:

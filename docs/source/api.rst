@@ -1,7 +1,9 @@
 API
 ===
 
-.. autosummary::
-   :toctree: generated
+.. py:function:: spam(eggs)
+                 ham(eggs)
 
-   lumache
+   Spam or ham the foo.
+   
+   

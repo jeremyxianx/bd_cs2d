@@ -1,14 +1,9 @@
 APIs
 --------------------------
 
-.. class:: CS2D
-   :members: model, data
+.. autoclass:: Noodle
+   :members: eat, slurp
 
-   .. method:: fit(data, lam, tau)
+   .. method:: boil(time=10)
 
-      Fit the model
-      
-   .. method:: predict(data)
-   
-   
-   .. method:: sample_selection(data, cut_off)
+      Boil the noodle *time* minutes.

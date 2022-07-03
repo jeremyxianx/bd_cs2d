@@ -84,6 +84,9 @@ APIs
         :param str backdoor_target: Backdoor Target.
         :param float cutoff: The cutoff value for choosing backdoor samples.
         
+        :return: Mean accuracy of self.predict(backdoor_selection(X, cutoff)) wrt. to backdoor_target
+        :rtype: float
+        
         
 .. warning::
           This methods only concerns the accuracy on selected samples.

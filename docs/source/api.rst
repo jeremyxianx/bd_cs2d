@@ -11,10 +11,6 @@ APIs
    :param int max_iter: Maximum number of iterations taken for the solvers to converge
    :param str pre_trained: Specify the path of a pre-trained model
    
-   
-   .. py:attribute:: classes
-   
-      :type: ndarray of shape (n_classes, )
       
    
    .. py:method:: fit(X, y, backdoor_target, sample_weight = None)

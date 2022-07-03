@@ -12,6 +12,10 @@ APIs
    :param str pre_trained: Specify the path of a pre-trained model
    
    
+   .. py:attribute:: classes
+   
+      :type: ndarray of shape (n_classes, )
+      
    
    .. py:method:: fit(X, y, backdoor_target, sample_weight = None)
         
@@ -41,6 +45,11 @@ APIs
 
 
 
+ 
+
+
+
+
 .. py:function:: send_message(sender, recipient, message_body, [priority=1])
 
    Send a message to a recipient
@@ -56,5 +65,5 @@ APIs
    :raises TypeError: if the message_body is not a basestring
 
 
-.. py:class:: example_numpy.py
+
 

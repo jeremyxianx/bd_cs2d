@@ -13,9 +13,31 @@ APIs
    
    
    
-   .. py:method:: quux()
-
-
+   .. py:method:: fit(X, y, backdoor_target, sample_weight = None)
+        
+        Fit the model according to the given training data.
+        
+        :param arr X: The person sending the message
+        :param arr y: The recipient of the message
+        :param str backdoor_target: The target class
+        
+   
+   .. py:method:: selection(X, y, backdoor_target, sample_weight = None)
+        
+        Fit the model according to the given training data.
+        
+        :param arr X: The person sending the message
+        :param arr y: The recipient of the message
+        :param str backdoor_target: The target class
+        
+        
+   .. py:method:: predict(X, y, backdoor_target, sample_weight = None)
+        
+        Fit the model according to the given training data.
+        
+        :param arr X: The person sending the message
+        :param arr y: The recipient of the message
+        :param str backdoor_target: The target class
 
 
 

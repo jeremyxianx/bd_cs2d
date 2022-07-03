@@ -2,11 +2,17 @@ APIs
 --------------------------
 
 
-.. py:class:: Foo
+.. py:class:: CS2D(penalty='l2', backdoor_penalty = 0.1, sele_penalty = 0.1, class_weight = None, random_state=None, solver='Adam', max_iter=100, pre_trained = False)
 
+   :param float backdoor_penalty: The mangnitude of the penalty on the backdoor loss
+   :param float sele_penalty: The mangnitude of the penalty on the selection mechanism
+   :param int random_state: RandomState instance; Used when solver == ‘sag’, ‘saga’ or ‘liblinear’ to shuffle the data
+   :param dic solver: The person sending the message
+   :param int max_iter: Maximum number of iterations taken for the solvers to converge.
+   
+   
    .. py:method:: quux()
-   :param str sender: The person sending the message
-   :param str recipient: The recipient of the message
+
 
 
 

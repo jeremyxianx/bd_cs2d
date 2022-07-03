@@ -56,5 +56,5 @@ APIs
    :raises TypeError: if the message_body is not a basestring
 
 
-
+.. py:class:: example_numpy.py
 

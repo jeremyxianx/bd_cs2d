@@ -3,6 +3,7 @@
 ================
 
 
+
 .. py:class:: CS2D(backdoor_penalty = 0.1, selec_penalty = 0.1, class_weight = None, random_state=None, solver='Adam', max_iter=100, pre_trained = None)
  :param float backdoor_penalty: The mangnitude of the penalty on the backdoor loss
  :param float selec_penalty: The mangnitude of the penalty on the selection mechanism
@@ -11,8 +12,11 @@
  :param int max_iter: Maximum number of iterations taken for the solvers to converge
  :param str pre_trained: Specify the path of a pre-trained model
    
+----------
+ Methdos
+----------  
        
- .. py:method:: fit(X, y, backdoor_target)
+.. py:method:: fit(X, y, backdoor_target)
         
         Fit the model according to the given training data.
         
@@ -31,7 +35,7 @@
 
         
         
-  .. py:method:: predict(X)
+.. py:method:: predict(X)
         
         Predict class labels for samples in X.
         

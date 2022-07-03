@@ -12,9 +12,6 @@
  :param int max_iter: Maximum number of iterations taken for the solvers to converge
  :param str pre_trained: Specify the path of a pre-trained model
    
-----------
- Methdos
-----------  
        
 .. py:method:: fit(X, y, backdoor_target)
         

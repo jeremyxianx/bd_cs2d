@@ -88,7 +88,7 @@
         
         
 .. warning::
-          This methods only concerns the accuracy on selected samples.
+          The above methods only concerns the accuracy on selected samples.
 
 
 

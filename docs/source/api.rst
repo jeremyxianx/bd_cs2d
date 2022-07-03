@@ -1,9 +1,9 @@
-APIs
---------------------------
+================
+ APIs
+================
 
 
 .. py:class:: CS2D(backdoor_penalty = 0.1, selec_penalty = 0.1, class_weight = None, random_state=None, solver='Adam', max_iter=100, pre_trained = None)
-
  :param float backdoor_penalty: The mangnitude of the penalty on the backdoor loss
  :param float selec_penalty: The mangnitude of the penalty on the selection mechanism
  :param int random_state: RandomState instance; Used when solver == ‘sag’, ‘saga’ or ‘liblinear’ to shuffle the data
@@ -12,7 +12,7 @@ APIs
  :param str pre_trained: Specify the path of a pre-trained model
    
        
-  .. py:method:: fit(X, y, backdoor_target)
+ .. py:method:: fit(X, y, backdoor_target)
         
         Fit the model according to the given training data.
         
@@ -46,7 +46,7 @@ APIs
                                              
              
         
-  .. py:method:: score(X, y)
+   .. py:method:: score(X, y)
        
         Return the mean accuracy on the given test data and labels.
         
@@ -56,13 +56,11 @@ APIs
         :return: Mean accuracy of self.predict(X) wrt. y.
         :rtype: float
         
-
-.. note::
-          The above predict and score methods serve for general prediction/inference purposes.
+.. note::  The above predict and score methods serve for general prediction/inference purposes.
 
 
         
-  .. py:method:: backdoor_selection(X, cutoff)
+   .. py:method:: backdoor_selection(X, cutoff)
         
         Return the index of selected backdoor sample for given cutoff value.
         
@@ -76,7 +74,7 @@ APIs
           The cutoff value should be in range :math:`(0,1)`.
         
    
-  .. py:method:: backdoor_score(X, backdoor_target, cutoff)
+   .. py:method:: backdoor_score(X, backdoor_target, cutoff)
         
         Return the mean accuracy on the given test data and labels.
         

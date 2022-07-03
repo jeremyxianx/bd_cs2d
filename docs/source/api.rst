@@ -3,6 +3,7 @@ APIs
 
 
 .. py:class:: CS2D(penalty='l2', backdoor_penalty = 0.1, sele_penalty = 0.1, class_weight = None, random_state=None, solver='Adam', max_iter=100, pre_trained = None)
+
    :param float backdoor_penalty: The mangnitude of the penalty on the backdoor loss
    :param float sele_penalty: The mangnitude of the penalty on the selection mechanism
    :param int random_state: RandomState instance; Used when solver == ‘sag’, ‘saga’ or ‘liblinear’ to shuffle the data

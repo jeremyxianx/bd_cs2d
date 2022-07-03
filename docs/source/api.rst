@@ -5,6 +5,8 @@ APIs
 .. py:class:: Foo
 
    .. py:method:: quux()
+   :param str sender: The person sending the message
+   :param str recipient: The recipient of the message
 
 
 

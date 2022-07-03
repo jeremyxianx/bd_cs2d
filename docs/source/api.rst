@@ -7,8 +7,8 @@
  :param str sender: The person sending the message
  :param float backdoor_penalty: The mangnitude of the penalty on the backdoor loss
  :param float selec_penalty: The mangnitude of the penalty on the selection mechanism
- :param int random_state: RandomState instance; Used when solver == ‘sag’, ‘saga’ or ‘liblinear’ to shuffle the data
- :param str solver: The person sending the message
+ :param int random_state: RandomState instance; 
+ :param str solver: The optimization solver e.g., 'Adam', 'SGD'
  :param int max_iter: Maximum number of iterations taken for the solvers to converge
  :param str pre_trained: Specify the path of a pre-trained model
    
@@ -87,8 +87,7 @@
         :rtype: float
         
         
-.. warning::
-          The above methods only concerns the accuracy on selected samples.
+ .. warning::  The above methods only concerns the accuracy on selected samples.
 
 
 

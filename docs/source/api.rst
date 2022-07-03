@@ -17,8 +17,13 @@ APIs
         
         Fit the model according to the given training data.
         
-        :param arr X: The person sending the message
-        :param arr y: The recipient of the message
+        
+        :param  X: Training vector, where n_samples is the number of samples and n_features is the number of features.
+        :type X: {array-like, sparse matrix} of shape (n_samples, n_features)
+        
+        :param  y: Target vector relative to X.
+        :type y: array-like of shape (n_samples,)
+        
         :param str backdoor_target: The target class
         
    

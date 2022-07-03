@@ -12,7 +12,7 @@ APIs
  :param str pre_trained: Specify the path of a pre-trained model
    
        
- .. py:method:: fit(X, y, backdoor_target)
+  .. py:method:: fit(X, y, backdoor_target)
         
         Fit the model according to the given training data.
         
@@ -31,7 +31,7 @@ APIs
 
         
         
-.. py:method:: predict(X)
+  .. py:method:: predict(X)
         
         Predict class labels for samples in X.
         
@@ -46,7 +46,7 @@ APIs
                                              
              
         
-.. py:method:: score(X, y)
+  .. py:method:: score(X, y)
        
         Return the mean accuracy on the given test data and labels.
         
@@ -62,7 +62,7 @@ APIs
 
 
         
-.. py:method:: backdoor_selection(X, cutoff)
+  .. py:method:: backdoor_selection(X, cutoff)
         
         Return the index of selected backdoor sample for given cutoff value.
         
@@ -76,7 +76,7 @@ APIs
           The cutoff value should be in range :math:`(0,1)`.
         
    
-.. py:method:: backdoor_score(X, backdoor_target, cutoff)
+  .. py:method:: backdoor_score(X, backdoor_target, cutoff)
         
         Return the mean accuracy on the given test data and labels.
         

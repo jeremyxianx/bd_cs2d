@@ -31,7 +31,7 @@ APIs
 
         
         
-   .. py:method:: predict(X)
+.. py:method:: predict(X)
         
         Predict class labels for samples in X.
         
@@ -46,8 +46,8 @@ APIs
                                              
              
         
-   .. py:method:: score(X, y)
-        
+.. py:method:: score(X, y)
+       
         Return the mean accuracy on the given test data and labels.
         
         :param arr X: Test samples.
@@ -57,12 +57,12 @@ APIs
         :rtype: float
         
 
-      .. note::
+.. note::
           The above predict and score methods serve for general prediction/inference purposes.
 
 
         
-   .. py:method:: backdoor_selection(X, cutoff)
+.. py:method:: backdoor_selection(X, cutoff)
         
         Return the index of selected backdoor sample for given cutoff value.
         
@@ -76,7 +76,7 @@ APIs
           The cutoff value should be in range :math:`(0,1)`.
         
    
-   .. py:method:: backdoor_score(X, backdoor_target, cutoff)
+.. py:method:: backdoor_score(X, backdoor_target, cutoff)
         
         Return the mean accuracy on the given test data and labels.
         

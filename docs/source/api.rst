@@ -11,8 +11,7 @@ APIs
    :param int max_iter: Maximum number of iterations taken for the solvers to converge
    :param str pre_trained: Specify the path of a pre-trained model
    
-      
-   ## Methods   
+       
    .. py:method:: fit(X, y, backdoor_target, sample_weight = None)
         
         Fit the model according to the given training data.
@@ -24,7 +23,8 @@ APIs
         :param y: Target vector relative to X.
         :type y: array-like of shape (n_samples,)
         
-        :param str backdoor_target: The target class
+        :param backdoor_target: Backdoor Target
+        :type backdoor_target: array-like
         
    
    .. py:method:: selection(X, y, backdoor_target, sample_weight = None)

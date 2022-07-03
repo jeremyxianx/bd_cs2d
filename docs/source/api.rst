@@ -2,14 +2,10 @@
  APIs
 ================
 
-.. py:class:: CS2D(backdoor_penalty = 0.1, selec_penalty = 0.1, class_weight = None, random_state=None, solver='Adam', max_iter=100, pre_trained = None)
-
-
-   This class implements regularized logistic regression using the ‘liblinear’ library, ‘newton-cg’, ‘sag’, ‘saga’ and ‘lbfgs’ solvers. Note that    
-
-   :param str sender: The person sending the message
-   :param float backdoor_penalty: The mangnitude of the penalty on the backdoor loss
-   :param float selec_penalty: The mangnitude of the penalty on the selection mechanism
+.. py:class:: CS2D(backdoor_penalty = 0.1, selec_penalty = 0.1, class_weight = None, random_state=None, solver='Adam', max_iter=100, pre_trained = None)   
+ :param str sender: The person sending the message
+ :param float backdoor_penalty: The mangnitude of the penalty on the backdoor loss
+ :param float selec_penalty: The mangnitude of the penalty on the selection mechanism
    :param int random_state: RandomState instance; Used when solver == ‘sag’, ‘saga’ or ‘liblinear’ to shuffle the data
    :param str solver: The person sending the message
    :param int max_iter: Maximum number of iterations taken for the solvers to converge

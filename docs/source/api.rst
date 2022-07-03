@@ -26,23 +26,39 @@ APIs
         :param backdoor_target: Backdoor Target
         :type backdoor_target: array-like
         
+        
+        
+   .. py:method:: predict(X, sample_weight = None)
+        
+        Predict class labels for samples in X.
+        
+        :param arr X: The person sending the message
+        
+        
+   .. py:method:: score(X, y, sample_weight = None)
+        
+        Predict class labels for samples in X.
+        
+        :param arr X: The person sending the message
+        
+        
+   .. py:method:: backdoor_selection(X, backdoor_target, sample_weight = None)
+        
+        Fit the model according to the given training data.
+        
+        :param arr X: The person sending the message
+        :param arr y: The recipient of the message
+        :param str backdoor_target: The target class
+        
    
-   .. py:method:: selection(X, y, backdoor_target, sample_weight = None)
+   .. py:method:: backdoor_score(X, y, quantile, sample_weight = None)
         
-        Fit the model according to the given training data.
-        
-        :param arr X: The person sending the message
-        :param arr y: The recipient of the message
-        :param str backdoor_target: The target class
-        
-        
-   .. py:method:: predict(X, y, backdoor_target, sample_weight = None)
-        
-        Fit the model according to the given training data.
+        Predict class labels for samples in X.
         
         :param arr X: The person sending the message
-        :param arr y: The recipient of the message
-        :param str backdoor_target: The target class
+        
+    
+
 
 
 

@@ -2,8 +2,6 @@
  APIs
 ================
 
-
-
 .. py:class:: CS2D(backdoor_penalty = 0.1, selec_penalty = 0.1, class_weight = None, random_state=None, solver='Adam', max_iter=100, pre_trained = None)
  :param float backdoor_penalty: The mangnitude of the penalty on the backdoor loss
  :param float selec_penalty: The mangnitude of the penalty on the selection mechanism

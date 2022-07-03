@@ -1,6 +1,13 @@
 APIs
 --------------------------
 
+
+.. py:class:: Foo
+
+   .. py:method:: quux()
+
+
+
 .. py:function:: send_message(sender, recipient, message_body, [priority=1])
 
    Send a message to a recipient
@@ -14,3 +21,7 @@ APIs
    :rtype: int
    :raises ValueError: if the message_body exceeds 160 characters
    :raises TypeError: if the message_body is not a basestring
+
+
+
+

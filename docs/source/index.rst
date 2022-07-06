@@ -14,10 +14,10 @@ how to :ref:`installation` the project.
 
    This project is under active development.
 
-Contents
+An example
 --------
 
-Here's a few brief examples of how to use the package:
+Here's a demonstrating example of how to use the package:
 
 
 .. code-block:: python
@@ -66,11 +66,11 @@ CS2D has minimal dependencies, with core functionality being pure python:
 Contact
 =======
 
+Xun Xian at xian0044@umn.edu
 
 Important Links
 ===============
 
-- `GitHub <https://github.com/WxBDM/nwsapy>`_
 
 
 Indices and tables

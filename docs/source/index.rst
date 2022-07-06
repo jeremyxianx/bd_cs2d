@@ -28,6 +28,7 @@ Here's a demonstrating example of how to use the package:
    from model import CNN
    import torch
    
+   ## this is a note
    
    cs2d_classifier = CNN()
    cs2d_classifier = torch.load(fmn_classifier)

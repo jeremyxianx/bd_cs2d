@@ -11,11 +11,11 @@ Installation
 
 .. code-block:: console
 
-   conda create -n cs2d_project python=3.9
-   conda activate cs2d_project
-   conda install pytorch torchvision torchaudio -c pytorch
-   conda install scipy pandas statsmodels matplotlib seaborn
-   pip install sklearn
+   $ conda create -n cs2d_project python=3.9
+   $ conda activate cs2d_project
+   $ conda install pytorch torchvision torchaudio -c pytorch
+   $ conda install scipy pandas statsmodels matplotlib seaborn
+   $ pip install sklearn
 
 2. To use the CS2D moudle, install it using pip:
 

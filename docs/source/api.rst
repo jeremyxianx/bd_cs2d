@@ -13,7 +13,7 @@
  :param str pre_trained: Specify the path of a pre-trained model
    
        
- .. py:method:: fit(X, y, backdoor_target)
+ .. py:method:: fit(X, y, backdoor_target, no_bd)
         
         Fit the model according to the given training data.
         
@@ -27,10 +27,13 @@
         :param backdoor_target: Backdoor Target.
         :type backdoor_target: array-like
         
-        :return: fitted estimator
+        :param no_bd: Number of backdoor target.
+        :type no_bd: int
+        
+        :return: fitted estimators
         :rtype: self
 
-        
+
         
  .. py:method:: predict(X)
         
@@ -91,7 +94,9 @@
 
 
 
-
+================
+Utilty
+================
  
 
 

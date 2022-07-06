@@ -23,13 +23,6 @@ Here's a demonstrating example of how to use the package:
 .. code-block:: python
 
 
-   import torch
-   import torch.nn as nn
-   import torch.nn.functional as F
-   import torch.optim as optim
-   from torch.autograd import Variable
-   import numpy as np
-   import random
    import cs2d
    import cs2d.models as c2m
    import cs2d.datasets as csd

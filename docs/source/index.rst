@@ -23,15 +23,37 @@ Here's a demonstrating example of how to use the package:
 .. code-block:: python
 
 
-   from dataset import fmnist
-   from pretrained import fmn_classifier
-   from model import CNN
    import torch
+   import torch.nn as nn
+   import torch.nn.functional as F
+   import torch.optim as optim
+   from torch.autograd import Variable
+   import numpy as np
+   import random
+   import cs2d
+   import cs2d.models as c2m
+   import cs2d.datasets as csd
    
-   ## this is a note
+   ## create data for binary classification
+   traindata, trainlabel, testdata, testlabel = cs2.linear_data(4000,1000)
+   backdoor_target = 1
+   number_of_bd = 50
    
-   cs2d_classifier = CNN()
-   cs2d_classifier = torch.load(fmn_classifier)
+   ## classifier and selection mechanism
+   cs2d_classifier = c2m.Linearclassifier()
+   cs2d_selection = c2m.Synselection()
+   
+   ## training 
+   cs2d(cs2d_classifier, cs2d_selection).fit(traindata, trainlabel, backdoor_target, number_of_bd)
+   
+   ## test for selection
+   cs2d.backdoor_selection(testdata, cutoff = 0.1)
+   
+   ## test for accuracy
+   cs2d.backdoor_score(test, backdoor_target, cutoff = 0.1)
+    
+  
+   
    
 
    

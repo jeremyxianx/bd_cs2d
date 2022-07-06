@@ -2,7 +2,8 @@
  APIs
 ================
 
-.. py:class:: CS2D(backdoor_penalty = 0.1, selec_penalty = 0.1, class_weight = None, random_state=None, solver='Adam', max_iter=100, pre_trained = None)   
+.. py:class:: CS2D(backdoor_penalty = 0.1, selec_penalty = 0.1, class_weight = None, random_state=None, solver='Adam', \
+         max_iter=100, classifier = None, selection = None)   
 
  :param str sender: The person sending the message
  :param float backdoor_penalty: The mangnitude of the penalty on the backdoor loss
@@ -10,8 +11,8 @@
  :param int random_state: RandomState instance; 
  :param str solver: The optimization solver e.g., 'Adam', 'SGD'
  :param int max_iter: Maximum number of iterations taken for the solvers to converge
- :param str pre_trained: Specify the path of a pre-trained model
-   
+ :param str classifier: The classifier for learning
+ :param str selection: The selection mechanism used
        
  .. py:method:: fit(X, y, backdoor_target, no_bd)
         

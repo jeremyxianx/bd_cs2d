@@ -6,29 +6,19 @@ Usage
 Installation
 ------------
 
-To use the CS2D moudle, first install it using pip:
+
+1. (Recommended) Create an new environment and install the dependencies (With Anaconda): 
+
+.. code-block:: console
+
+   conda create -n cs2d_project python=3.9
+   conda activate cs2d_project
+   conda install pytorch torchvision torchaudio -c pytorch
+   conda install scipy pandas statsmodels matplotlib seaborn
+   pip install sklearn
+
+2. To use the CS2D moudle, install it using pip:
 
 .. code-block:: console
 
    $ pip install cs2d
-
-Creating recipes
-----------------
-
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
-
-.. autofunction:: lumache.get_random_ingredients
-
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
-
-.. autoexception:: lumache.InvalidKindError
-
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
-

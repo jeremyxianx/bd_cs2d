@@ -43,7 +43,7 @@ Here's a demonstrating example of how to use the package:
    cs2d.backdoor_selection(testdata, cutoff = 0.1)
    
    ## test for accuracy
-   print(cs2d.backdoor_score(test, backdoor_target, cutoff = 0.1))
+   cs2d.backdoor_score(test, backdoor_target, cutoff = 0.1)
    
    
    

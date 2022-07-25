@@ -28,7 +28,7 @@ Here's a demonstrating example of how to use the package:
    import cs2d.datasets as csd
    
    ## create data for binary classification
-   traindata, trainlabel, testdata, testlabel = cs2.linear_data(4000,1000)
+   traindata, trainlabel, testdata, testlabel = csd.linear_data(4000,1000)
    backdoor_target = 1
    number_of_bd = 50
    
@@ -43,7 +43,14 @@ Here's a demonstrating example of how to use the package:
    cs2d.backdoor_selection(testdata, cutoff = 0.1)
    
    ## test for accuracy
-   cs2d.backdoor_score(test, backdoor_target, cutoff = 0.1)
+   print(cs2d.backdoor_score(test, backdoor_target, cutoff = 0.1))
+   
+   
+   .. exec::
+   
+   print(0.978)
+   
+   
     
   
    

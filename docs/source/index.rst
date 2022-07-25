@@ -45,9 +45,6 @@ Here's a demonstrating example of how to use the package:
    ## test for accuracy
    print(cs2d.backdoor_score(test, backdoor_target, cutoff = 0.1))
    
-   .. exec-code::
-
-      print('0.978')
    
    
     

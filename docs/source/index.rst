@@ -85,7 +85,11 @@ CS2D has minimal dependencies, with core functionality being pure python:
 Contact
 =======
 
-Xun Xian at xian0044@umn.edu
+Xun Xian, ECE, University of Minneosta, xian0044@umn.edu
+
+Jie Ding, School of Statistics, University of Minnesota, dingj@umn.edu
+
+
 
 Important Links
 ===============
